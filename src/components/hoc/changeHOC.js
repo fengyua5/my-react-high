@@ -17,6 +17,9 @@ export default function(ComposeComponent) {
 				value: e.target.value
 			})
 		}
+		componentWillReceiveProps(nextProps, nextState){
+			console.log('change hoc componentWillReceiveProps');
+		}
 		render() {
 			return (
 				<ComposeComponent

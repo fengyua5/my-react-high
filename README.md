@@ -18,7 +18,7 @@ Inheritance Inversion 允许 HOC 通过 this 访问到 WrappedComponent，意味
 * 渲染劫持（Render Highjacking）
 * 提取 state
 
-
+### 3.与木偶组件的结合
 
 this is a blog about Higher Order Component,[click here](https://zhuanlan.zhihu.com/p/24776678?group_id=802649040843051008)
 
